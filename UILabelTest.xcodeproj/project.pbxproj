@@ -15,6 +15,8 @@
 		8DDEA8861EFEB31C00FEA34F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DDEA8841EFEB31C00FEA34F /* LaunchScreen.storyboard */; };
 		8DDEA8911EFEB31C00FEA34F /* UILabelTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA8901EFEB31C00FEA34F /* UILabelTestTests.m */; };
 		8DDEA89C1EFEB31C00FEA34F /* UILabelTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA89B1EFEB31C00FEA34F /* UILabelTestUITests.m */; };
+		8DDEA8AF1EFEB58200FEA34F /* UILabel+YGZExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA8AE1EFEB58200FEA34F /* UILabel+YGZExt.m */; };
+		8DDEA8B21EFEB59A00FEA34F /* UIView+YGZExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DDEA8B11EFEB59A00FEA34F /* UIView+YGZExt.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		8DDEA8971EFEB31C00FEA34F /* UILabelTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UILabelTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DDEA89B1EFEB31C00FEA34F /* UILabelTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabelTestUITests.m; sourceTree = "<group>"; };
 		8DDEA89D1EFEB31C00FEA34F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DDEA8AD1EFEB58200FEA34F /* UILabel+YGZExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+YGZExt.h"; sourceTree = "<group>"; };
+		8DDEA8AE1EFEB58200FEA34F /* UILabel+YGZExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YGZExt.m"; sourceTree = "<group>"; };
+		8DDEA8B01EFEB59A00FEA34F /* UIView+YGZExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YGZExt.h"; sourceTree = "<group>"; };
+		8DDEA8B11EFEB59A00FEA34F /* UIView+YGZExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YGZExt.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,7 @@
 				8DDEA87A1EFEB31C00FEA34F /* AppDelegate.m */,
 				8DDEA87C1EFEB31C00FEA34F /* ViewController.h */,
 				8DDEA87D1EFEB31C00FEA34F /* ViewController.m */,
+				8DDEA8AC1EFEB58200FEA34F /* util */,
 				8DDEA87F1EFEB31C00FEA34F /* Main.storyboard */,
 				8DDEA8821EFEB31C00FEA34F /* Assets.xcassets */,
 				8DDEA8841EFEB31C00FEA34F /* LaunchScreen.storyboard */,
@@ -138,6 +145,17 @@
 				8DDEA89D1EFEB31C00FEA34F /* Info.plist */,
 			);
 			path = UILabelTestUITests;
+			sourceTree = "<group>";
+		};
+		8DDEA8AC1EFEB58200FEA34F /* util */ = {
+			isa = PBXGroup;
+			children = (
+				8DDEA8AD1EFEB58200FEA34F /* UILabel+YGZExt.h */,
+				8DDEA8AE1EFEB58200FEA34F /* UILabel+YGZExt.m */,
+				8DDEA8B01EFEB59A00FEA34F /* UIView+YGZExt.h */,
+				8DDEA8B11EFEB59A00FEA34F /* UIView+YGZExt.m */,
+			);
+			path = util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,6 +294,8 @@
 				8DDEA87E1EFEB31C00FEA34F /* ViewController.m in Sources */,
 				8DDEA87B1EFEB31C00FEA34F /* AppDelegate.m in Sources */,
 				8DDEA8781EFEB31C00FEA34F /* main.m in Sources */,
+				8DDEA8AF1EFEB58200FEA34F /* UILabel+YGZExt.m in Sources */,
+				8DDEA8B21EFEB59A00FEA34F /* UIView+YGZExt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
